@@ -4,6 +4,6 @@ Projeto Final da matéria Linguagens de Marcação do 1° Período Letivo de 202
 
 Integrantes da Equipe
 
-Matheus Pereira de Sousa (20221370007)
-Lucas Palmeira Dantas da Nóbrega(20221370016)
-Samuel Merson Filho(20221370017)
+- Matheus Pereira de Sousa (20221370007)
+- Lucas Palmeira Dantas da Nóbrega(20221370016)
+- Samuel Merson Filho(20221370017)
