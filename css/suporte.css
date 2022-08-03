@@ -1,0 +1,100 @@
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+    width: 100vw;
+
+    font-family: "Montserrat", sans-serif;
+    background-image: url('../img/cool-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:260px;
+}
+
+.card {
+    margin: auto;
+    width: 600px;
+    padding: 3rem 3.5rem;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mt-50 {
+    margin-top: 25vh;
+}
+
+#support,
+h4 {
+    display: flex;
+    justify-content: center;
+}
+.inputbox {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.inputbox span {
+    position: absolute;
+    top: 7px;
+    left: 11px;
+    transition: 0.5s;
+}
+.inputbox i {
+    position: absolute;
+    top: 13px;
+    right: 8px;
+    transition: 0.5s;
+    color: #3f51b5;
+}
+.inputbox input:focus ~ span {
+    transform: translateX(-0px) translateY(-15px);
+    font-size: 12px;
+}
+.inputbox input:valid ~ span {
+    transform: translateX(-0px) translateY(-15px);
+    font-size: 12px;
+}
+
+.inputbox textarea:focus ~ span {
+    transform: translateX(-0px) translateY(-15px);
+    font-size: 12px;
+}
+.inputbox textarea:valid ~ span {
+    transform: translateX(-0px) translateY(-15px);
+    font-size: 12px;
+}
+.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+#submit-button {
+    background-color: #3f51b5;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.data {
+    width: 60%;
+}

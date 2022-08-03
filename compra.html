@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efetuar compra</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/compra.css">
+</head>
+
+<body>
+    <div id="form-container" class="card mt-50 mb-50">
+        <form action="">
+            <h2 id="payment">Pagamento</h2>
+
+            <!-- Cartão -->
+            <div class="card-payment">
+                <div class="inputbox"> <input type="text" name="name" class="form-control" required>
+                    <span>Nome</span>
+                </div>
+
+                <div class="inputbox num"> <input type="text" name="name" class="form-control" required>
+                    <span>Número do cartão</span>
+                </div>
+
+                <div class="card-info">
+                    <div class="inputbox data"> <input type="text" name="name" class="form-control" required>
+                        <span>Data de expiração</span>
+                    </div>
+                    <div class="inputbox cvv"> <input type="text" name="name" class="form-control" required>
+                        <span>CVV</span>
+                    </div>
+                </div>
+
+                <div class="checkbutton">
+                    <input type="checkbox" name="salvar" id="salvar">
+                    <label for="salvar">Salve meu cartão para compras futuras</label>
+                </div>
+
+
+                <div class="button-container">
+                    <button type="submit" id="payment-button">Comprar</button>
+                </div>
+
+            </div>
+        </form>
+
+        
+    </div>
+
+
+
+
+    <script src="bootstrap/jquery.min.js"></script>
+    <script src="bootstrap/boostrap.bundle.min.js"></script>
+</body>
+
+</html>

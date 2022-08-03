@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tíquete ao suporte</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/suporte.css">
+</head>
+
+<body>
+    <div id="form-container" class="card mt-50 mb-50">
+        <form action="">
+            <h2 id="support">Suporte</h2>
+
+            <!-- Suporte -->
+            <div class="support-form">
+                <div class="inputbox"> <input type="text" name="name" class="form-control" required>
+                    <span>Nome</span>
+                </div>
+
+                <div class="inputbox email"> <input type="email" name="email" class="form-control" required>
+                    <span>Endereço de E-mail</span>
+                </div>
+
+                <div class="inputbox subject"> <input type="text" name="subject" class="form-control" required>
+                    <span>Assunto</span>
+                </div>
+
+                <div class="inputbox question"> <textarea type="text" name="question" class="form-control" rows="3" required></textarea> 
+                    <span>Descrição do Assunto</span>  
+                </div>
+
+                <div class="inputbox file">
+                    <div id="file-help" class="form-text">Insira arquivo(s) anexo(s), se necessário</div>
+                    <input class="form-control" type="file" id="formFile">
+                  </div>
+                
+                <div class="button-container">
+                    <button type="submit" id="submit-button">Enviar</button>
+                </div>
+
+            </div>
+
+
+        </form>
+    </div>
+
+
+
+
+    <script src="bootstrap/jquery.min.js"></script>
+    <script src="bootstrap/boostrap.bundle.min.js"></script>
+</body>
+
+</html>
